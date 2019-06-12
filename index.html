@@ -68,7 +68,10 @@
 						<li><a href="#" data-nav-section="experience">Projects</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 						
+
+
 						<a id="stack_" href="https://stackoverflow.com/users/8071889/suvojit-007"><img src="https://stackoverflow.com/users/flair/8071889.png" width="208" height="58" alt="profile for suvojit_007 at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for suvojit_007 at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
+						<a id="d_resume" class="heading-meta" style="margin: 20px;cursor: pointer;">DOWNLOAD MY RESUME</a>
 					</ul>
 				</div>
 			</nav>
@@ -407,7 +410,6 @@
 									  <p><strong>Cubehub</strong>, an open-source platform for professional cubers, is mainly developed for young people who are trying to solve the worlds one of the devious puzzles called the "Rubik's cube". This platform helps people collaborate by our community forum and chat box. The source code is made open source so that people can look into it and modify them as per their needs.</p>
 									  <p>Technology stack: HTML/CSS,JavaScript,PHP,SQL</p>
 									  <a href="https://github.com/suvojitd79/CubeHub.org" target="_blank">Get the source code</a>
-
 									</div>
 					            </div>
 					         </article>
@@ -644,6 +646,12 @@
 		stack_.addEventListener('click',()=>{
 			window.open("https://stackoverflow.com/users/8071889/suvojit-007","_blank");
 		});
+
+		const resume_download = document.getElementById('d_resume');
+		resume_download.addEventListener('click',()=>{
+			window.open("images/resume.pdf","_blank");
+		});
+		
 	</script>
 
 	</body>
